@@ -51,7 +51,6 @@ consumo_liquido <- 0.0
 geracao <- 0.0
 tarifa_variavel <- 0.0
 custo_bandeira <- 0.0
-taxa_bandeira <- 0.0
 taxa_fixa <- 0.0
 custo_final <- 0.0
 credito <- 0.0
@@ -81,13 +80,13 @@ se (consumo_liquido < 0) entao
    credito <- consumo_liquido * -1
 senao
    calcular_custo_bandeira(bandeira, custo_bandeira)
-   custo_bandeira <- (consumo_liquido / 100) * custo_bandeira
+   custo_bandeira <- (Int(consumo_liquido) div 100) * custo_bandeira
    custo_final <- consumo_liquido * tarifa_variavel + custo_bandeira + taxa_fixa
 fimse
 
 escreval("Consumo líquido total foi de : ", consumo_liquido , " kWh")
 escreval("O crédito obtido foi de : ", credito, " kWh")
-escreval("O custo total da bandeira " + minusc(bandeira) + " foi de: ", custo_bandeira:6:2, " R$")
+escreval("O custo total da bandeira " + minusc(bandeira) + " foi de: ", custo_bandeira:6:3, " R$")
 escreval("O custo total de energia foi de ", custo_final:6:2, " R$")
 
 Fimalgoritmo
