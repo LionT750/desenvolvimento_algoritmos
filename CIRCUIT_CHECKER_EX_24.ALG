@@ -47,6 +47,7 @@ para i de 0 ate 7 faca
             escreval(" ", A, " ", B, " ", D, " ", C, " ", X, " Yes")
          senao
             escreval(" ", A, " ", B, " ", D, " ", C, " ", X, " No")
+
          fimse
 fimpara
 Fimalgoritmo

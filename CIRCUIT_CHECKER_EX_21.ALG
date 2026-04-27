@@ -24,6 +24,7 @@ C <- 0
 D <- 0
 X <- 0
 
+escreval(" ")
 escreval("  Tabela da verdade")
 escreval("  A  B  D  C  X TestPassed")
 para i de 0 ate 7 faca
