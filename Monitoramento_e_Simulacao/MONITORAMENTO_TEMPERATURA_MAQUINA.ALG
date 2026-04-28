@@ -1,11 +1,11 @@
-Algoritmo "monitoramente_temperatura"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "monitoramento_temperatura_maquina"
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 02/04/2026
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
 numero_brechas_estado_critico: inteiro
 temperatura, valor_de_parada: real
 
@@ -19,7 +19,7 @@ enquanto (temperatura <> valor_de_parada) faca
          escreva("Temperatura: ")
          leia(temperatura)
          se temperatura > 80 entao
-            escreval("ALERTA: Temperatura crítica")
+            escreval("ALERTA: Temperatura crï¿½tica")
             numero_brechas_estado_critico <- numero_brechas_estado_critico + 1
          fimse
          se (temperatura > 50) e (temperatura <= 80) entao
@@ -31,7 +31,7 @@ enquanto (temperatura <> valor_de_parada) faca
          
 fimenquanto
 
-escreval("Número de vezes que o estado crítico foi atigindo: ", numero_brechas_estado_critico)
+escreval("Nï¿½mero de vezes que o estado crï¿½tico foi atigindo: ", numero_brechas_estado_critico)
 
 
 

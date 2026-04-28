@@ -1,4 +1,4 @@
-Algoritmo "desenhar_tabuleiro_puro_ascii"
+Algoritmo "desenhar_tabuleiro_xadrez_ascii"
 Var
 x, y, z : inteiro
 

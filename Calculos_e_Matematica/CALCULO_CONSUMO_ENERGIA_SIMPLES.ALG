@@ -1,14 +1,14 @@
-Algoritmo "calculo_consumo_energia"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "calculo_consumo_energia_simples"
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 27/04/2026
 Var
 consumo, consumo_liquido, geracao, tarifa_variavel, taxa_fixa, custo_final: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 
 consumo <- 0.0
 geracao <- 0.0
@@ -19,11 +19,11 @@ custo_final <- 0.0
 escreval("Entre com os  valores requisitados : ")
 escreval("Consumo total(kWh)")
 leia(consumo)
-escreval("Geração solar mensal (kWh)")
+escreval("Geraï¿½ï¿½o solar mensal (kWh)")
 leia(geracao)
 escreval("Tarifa de energia ( R$/kWh)")
 leia(tarifa_variavel)
-escreval("Taxa fixa iluminação pública")
+escreval("Taxa fixa iluminaï¿½ï¿½o pï¿½blica")
 leia(taxa_fixa)
 
 consumo_liquido <- consumo - geracao

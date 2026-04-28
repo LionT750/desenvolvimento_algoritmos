@@ -1,26 +1,26 @@
-Algoritmo "Fibo"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "maior_menor_de_10_numeros"
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 02/04/2026
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
 i: inteiro
 max, min, n: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 
 n <- 0
 
 para i de 1 ate 10 passo 1 faca
      se i = 1 entao
-        escreva("Entre com o valor de um número: ")
+        escreva("Entre com o valor de um nï¿½mero: ")
         leia(max)
         min <- max
      senao
-        escreva("Entre com o valor de um número: ")
+        escreva("Entre com o valor de um nï¿½mero: ")
         leia(n)
         se n > max entao
            max <- n

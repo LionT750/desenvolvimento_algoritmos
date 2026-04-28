@@ -1,11 +1,11 @@
-Algoritmo "caixa_eletronico"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "simulador_caixa_eletronico"
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 02/04/2026
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
 saldo_inicial, saldo_atual, saque: real
 OPERACAO_VALIDA: inteiro
 
@@ -33,12 +33,12 @@ enquanto (saldo_atual > 0) e (saque > 0) faca
          checar_validade_saque(saque, saldo_atual)
          se OPERACAO_VALIDA > 0 entao
             saldo_atual <- saldo_atual - saque
-            escreval("Saldo atual é de ", saldo_atual)
+            escreval("Saldo atual ï¿½ de ", saldo_atual)
          senao
             se saque = 0 entao
                escreval("Atendimento encerrado")
             senao
-               escreval("Valor inválido")
+               escreval("Valor invï¿½lido")
             fimse
 
          fimse

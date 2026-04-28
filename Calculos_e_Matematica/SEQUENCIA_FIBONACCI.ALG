@@ -1,17 +1,17 @@
-Algoritmo "Fibo"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "sequencia_fibonacci"
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 02/04/2026
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
 fibo_numero, elemento_n_menos_1, elemento_n_menos_2: real
 n, i: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva("Por favor, entre com o número N que representa o tamanho da sequência esperada ")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
+escreva("Por favor, entre com o nï¿½mero N que representa o tamanho da sequï¿½ncia esperada ")
 leia(n)
 
 elemento_n_menos_1 <- 1

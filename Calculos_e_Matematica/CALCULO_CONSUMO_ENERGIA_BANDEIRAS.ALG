@@ -1,7 +1,7 @@
-Algoritmo "calculo_consumo_energia"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "calculo_consumo_energia_bandeiras"
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 27/04/2026
 
@@ -44,7 +44,7 @@ fimse
 fimprocedimento
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 
 consumo <- 0.0
 consumo_liquido <- 0.0
@@ -60,17 +60,17 @@ bandeira_checker <- 0
 escreval("Entre com os  valores requisitados : ")
 escreval("Consumo total(kWh)")
 leia(consumo)
-escreval("Geração solar mensal (kWh)")
+escreval("Geraï¿½ï¿½o solar mensal (kWh)")
 leia(geracao)
 enquanto (bandeira_checker < 1) faca
-   escreval("Entre com a classificação da bandeira: Verde,")
+   escreval("Entre com a classificaï¿½ï¿½o da bandeira: Verde,")
    escreval("Amarela, Vermelha I ou Vermelha II")
    leia(bandeira)
    checar_bandeira_existe(bandeira, bandeira_checker)
 fimenquanto
 escreval("Tarifa de energia ( R$/kWh)")
 leia(tarifa_variavel)
-escreval("Taxa fixa iluminação pública")
+escreval("Taxa fixa iluminaï¿½ï¿½o pï¿½blica")
 leia(taxa_fixa)
 
 consumo_liquido <- consumo - geracao
@@ -84,8 +84,8 @@ senao
    custo_final <- consumo_liquido * tarifa_variavel + custo_bandeira + taxa_fixa
 fimse
 
-escreval("Consumo líquido total foi de : ", consumo_liquido , " kWh")
-escreval("O crédito obtido foi de : ", credito, " kWh")
+escreval("Consumo lï¿½quido total foi de : ", consumo_liquido , " kWh")
+escreval("O crï¿½dito obtido foi de : ", credito, " kWh")
 escreval("O custo total da bandeira " + minusc(bandeira) + " foi de: ", custo_bandeira:6:3, " R$")
 escreval("O custo total de energia foi de ", custo_final:6:2, " R$")
 

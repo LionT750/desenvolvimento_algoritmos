@@ -1,4 +1,4 @@
-Algoritmo "circuit_checker"
+Algoritmo "verificador_circuito_ex22"
 
 
 Var
