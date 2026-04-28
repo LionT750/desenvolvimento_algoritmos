@@ -27,7 +27,7 @@ se (minusc(bandeira) = "vermelha i") entao
    custo_bandeira <- 4.463
 fimse
 
-se (minusc(bandeira) = "vemelha ii") entao
+se (minusc(bandeira) = "vermelha ii") entao
    custo_bandeira <- 7.877
 fimse
 
