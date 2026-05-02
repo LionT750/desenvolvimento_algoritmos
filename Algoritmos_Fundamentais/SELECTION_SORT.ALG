@@ -1,11 +1,9 @@
 Algoritmo "SelectionSort"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Disciplina   : [Linguagem e Logica de Programacaoo]
+// Professor   : Antonio Carlos Nicolodi
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/04/2026
 Var
-// Seção de Declarações das variáveis 
 n: inteiro
 arr: vetor [1..1000] de inteiro
 
@@ -52,9 +50,8 @@ fimpara
 fimprocedimento
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
 
-escreval("Entre com o número de elementos desejados")
+escreval("Entre com o numero de elementos desejados")
 leia(n)
 getInput(n)
 selectionSort(n)
