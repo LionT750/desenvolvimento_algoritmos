@@ -36,6 +36,12 @@ Exploração de saída em console e loops de repetição.
 - `DESENHAR_TABULEIRO_XADREZ_ASCII.ALG`: Renderização visual via caracteres.
 - `EXEMPLO_REPETICAO_TEXTO.ALG`: Estruturas de iteração básica.
 
+### 6. Algoritmos Fundamentais (`/Algoritmos_Fundamentais`)
+Implementação de algoritmos clássicos de ordenação e busca.
+- `INSERTION_SORT.ALG`: Ordenação por inserção com suporte a lógica imperativa e recursiva.
+- `SELECTION_SORT.ALG`: Ordenação por seleção (estabilidade e trocas mínimas).
+- `SHELLSORT.ALG`: Otimização do insertion sort utilizando lacunas (Shell sort).
+
 ## 🛠️ Requisitos e Execução
 
 Para executar qualquer um dos algoritmos:
