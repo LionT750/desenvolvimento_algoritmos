@@ -1,9 +1,10 @@
 Algoritmo "InsertionSort"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 30/04/2026
+// Pontos importantes
+// Devivo ao fato do visualg nao permitir passagem de arrays como parametro
+// foi usada uma variavel global para executar o programa, e os prodecimentos
+// modificando ela in place. Para manter a a execucao correta, algumas etapas
+// em determinados procedimentos foram tomadas, como resetar a array antes do input
+// Implementei a forma recursiva tambem por curiosidade.
 Var
 // Seção de Declarações das variáveis 
 n: inteiro
