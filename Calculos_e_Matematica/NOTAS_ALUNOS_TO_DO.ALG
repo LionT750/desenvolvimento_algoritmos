@@ -1,32 +1,43 @@
 Algoritmo "notasAlunos"
 
 Var
-notasAluno: vetor [1..3] de inteiro
-i: inteiro
+notasAluno: vetor [1..100] de inteiro
+i, n: inteiro
 
-Procedimento calcularMedia(var start, media, numeroNotas: inteiro)
+Procedimento calcularMedia(numeroNotas: inteiro)
+var
+media: inteiro
 inicio
 
-se start >= numeroNotas - 1 entao
-   //return
-senao
-   media <- (notasAluno[start] + notasAluno[start + 1]) div 2
-   start <- start + 1
-   calcularMedia(start, media, numeroNotas)
-fimse
+media <- 0
+mediaRecursion(1, media, numeroNotas)
 
 fimprocedimento
 
 
+Procedimento mediaRecursion(var numeroIdx,media, numeroNotas: inteiro)
+inicio
+
+se numeroIdx >= numeroNotas entao
+   //return
+senao
+   media <- (media + notasAluno[numeroIdx]) div 2
+   mediaRecursion (numeroIdx + 2, media, numeroNotas)
+fimse
+
+fimprocedimento
+
 Inicio
 
+escreval("Entre com o número de notas por aluno")
+leia(n)
 escreval("Entre com as notas do aluno ")
-para i de 1 ate 3 faca
+para i de 1 ate n faca
      escreva("Nota: ")
      leia(notasAluno[i])
 fimpara
 
-calcularMedia(1, notasAluno[1], 3)
+calcularMedia(n)
 
 se media >= 7 entao
    escreval("Aprovado")
