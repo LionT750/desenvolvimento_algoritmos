@@ -15,7 +15,7 @@ media <- notasAluno[1]
 numeroIdx <- 2
 mediaRecursion(numeroIdx, numeroNotas, media)
 
-retorne media
+retorne media / numeroNotas
 fimfuncao
 
 
@@ -25,7 +25,7 @@ inicio
 se numeroIdx > numeroNotas entao
    // return
 senao
-   media <- (media + notasAluno[numeroIdx]) / 2
+   media <- (media + notasAluno[numeroIdx])
    numeroIdx <- numeroIdx + 1
    mediaRecursion(numeroIdx, numeroNotas, media)
 fimse
