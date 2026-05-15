@@ -3,14 +3,14 @@ Algoritmo "inverterOrdemDosDigitos"
 Var
 num, numInverso: inteiro
 
-procedimento inverterOrdemDosDigitos(num: inteiro; var numInverso, ordemDigito: inteiro)
+procedimento inverterOrdemDosDigitos(num: inteiro; var numInverso: inteiro)
 inicio
 
 se num = 0 entao
    //return
 senao
-   numInverso <- numInverso + ordemDigito * 10 + (num mod 10)
-   inverterOrdemDosDigitos((num div 10), numInverso, (num mod 10))
+   numInverso <- numInverso * 10 + (num mod 10)
+   inverterOrdemDosDigitos((num div 10), numInverso)
 fimse
 
 fimprocedimento
@@ -22,7 +22,7 @@ leia(num)
 
 numInverso <- 0
 
-inverterOrdemDosDigitos(num, numInverso, 0)
+inverterOrdemDosDigitos(num, numInverso)
 
 escreval("Nova ordem: ", numInverso)
 
